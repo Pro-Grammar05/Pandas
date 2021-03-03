@@ -1,7 +1,7 @@
 import pandas as pd
 
 # load data as csv file
-df = pd.read_csv('D:\Chamber of Secrets\Python\CSV files\pokemon_data.csv')
+df = pd.read_csv('pokemon_data.csv')
 
 # excel files - pd.read_excel
 # text files - pd.read_csv('path', delimiter = '\t')
