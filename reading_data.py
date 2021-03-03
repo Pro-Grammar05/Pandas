@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('D:\Chamber of Secrets\Python\CSV files\pokemon_data.csv')
+df = pd.read_csv('pokemon_data.csv')
 
 # Read Headers
 print(df.columns)
