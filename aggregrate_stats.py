@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('D:\Chamber of Secrets\Python\CSV files\pokemon_data.csv')
+df = pd.read_csv('pokemon_data.csv')
 
 # Mean value of stats sorted by type
 # Sort the values by a parameter in ascending or descending order
