@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-df = pd.read_csv('D:\Chamber of Secrets\Python\CSV files\pokemon_data.csv')
+df = pd.read_csv('pokemon_data.csv')
 
 # Use conditional operatores for more than one condition
 new_df = df.loc[(df['Type 1'] == 'Grass') & (df['Type 2'] == 'Poison') & (df['HP'] > 70)]
